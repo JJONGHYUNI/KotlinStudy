@@ -1,0 +1,29 @@
+buildscript {
+    ext {
+        kotlin_version = '1.4.10'
+        archLifecycleVersion = '1.1.1'
+        gradleVersion = '4.1.0'
+        supportlibVersion = '1.2.0'
+        navigationVersion = "2.3.0"
+        dataBindingCompilerVersion = gradleVersion // Always need to be the same.
+    }
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:$gradleVersion"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
