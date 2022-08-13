@@ -1,4 +1,4 @@
-#Fri Aug 12 23:04:11 KST 2022
+#Sat Aug 13 20:13:39 KST 2022
 base.0=C\:\\project\\kotlinStudy\\DessertClicker\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
