@@ -9,7 +9,6 @@ class GameViewModel: ViewModel() {
     // The current word
     private val _word = MutableLiveData<String>()
     private val _score = MutableLiveData<Int>()
-
     val score: LiveData<Int>
         get()= _score
     val word: LiveData<String>
